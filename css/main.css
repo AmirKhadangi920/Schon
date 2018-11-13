@@ -8067,6 +8067,7 @@ a:hover {
 -------------------------------------------------------------------*/
 .related-products {
   padding: 0 0 130px;
+  direction: rtl; 
 }
 
 .related-products h2 {
@@ -11826,6 +11827,7 @@ a:hover {
 
 .toppadding-zero {
   padding-top: 0 !important;
+  direction:rtl;
 }
 
 .faq-section {
@@ -12756,4 +12758,63 @@ a:hover, a:active, a:focus {
 
 .changer-active #style-changer {
   margin: 0;
+}
+@font-face{
+  font-family: vazir;
+  src: url("../fonts/persian/vazir/Vazir-Bold-FD_p30download.com.eot"),
+  url("../fonts/persian/vazir/Vazir-Bold-FD_p30download.com.ttf"),
+  url("../fonts/persian/vazir/Vazir-Bold-FD_p30download.com.woff"),
+}
+@font-face{
+  font-family: bkoodak;
+  src: url("../fonts/persian/B-Koodak/bkoodak/B_Koodak_Bold_0.eot"),
+  url("../fonts/persian/B-Koodak/bkoodak/BKoodakBold.ttf"),
+  url("../fonts/persian/B-Koodak/bkoodak/BKoodakBold.woff"),
+}
+@font-face{
+  font-family:rezvan;
+  src: url("../fonts/persian/rezvan/ARezvan.ttf"),
+  url("../fonts/persian/rezvan/ARezvan.woff"),
+  url("../fonts/persian/rezvan/Rezvan.eot")
+}
+.pkh-footer-hr-direction{
+	direction:rtl!important;
+}
+.pkh-footer-direction li{
+	float:right;
+	clear:right;
+}
+.text-direction{
+	margin:auto; 
+	direction:rtl;	
+}
+.pkh-nav-direction{
+	direction:rtl;
+}
+.pkh-close-icone{
+	position:absolute!important;
+	right:65%!important;
+}
+.pkh-text-center{
+	text-align:center;
+}
+.pkh-element-direction{
+  direction: rtl!important;
+}
+.pkh-butn-direction{
+  position: absolute;
+  left: 0; 
+}
+#mt-footer .footer-holder{
+  direction: rtl;
+}
+.list-unstyled  li a i{
+  padding-left: 5px;
+}
+.pkh-table-fix-icone a{
+  float: left;
+}
+.pkh-table-fix-icone strong{
+  float: right;
+  padding-left:5%!important; 
 }
