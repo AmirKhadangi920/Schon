@@ -12818,33 +12818,3 @@ a:hover, a:active, a:focus {
   float: right;
   padding-left:5%!important; 
 }
-
-
-/*-------------------------------------------------*/
-/*--------------------Mr.hidden--------------------*/
-
-body {
-	direction:rtl!important;
-}
-
-/* page 404 start */
-.H-search {
-	float:right!important;
-}
-
-.H-fa {
-	padding-right:7px;
-}
-
-.H-fas {
-	float:left;
-}
-/* page 404 end */
-
-.H-icon-search {
-}
-
-.H-btn-shops {
-	float:left;
-}
-/*-------------------------------------------------*/
